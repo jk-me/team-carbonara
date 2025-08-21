@@ -20,7 +20,7 @@ Now deployed on heroku at [calendappy.herokuapp.com](https://calendappy.herokuap
    - client/.env file
    - .env file
 4. To start the two processes, run `npm start` in the client directory, and `npm run dev` in the root directory
-5. Set up db using mongoDB, and insert below record into the `users` db to use the demo flow
+5. Set up db using mongoDB, and insert below record into the `calendapp.users` db to use the demo flow
 
 ```json
 {
@@ -40,7 +40,7 @@ Now deployed on heroku at [calendappy.herokuapp.com](https://calendappy.herokuap
       "duration": 60
     }
   ],
-  "subscriber": false,
+  "subscriber": true,
   "url": "demo",
   "timezone": "America/New_York",
   "__v": 0,
